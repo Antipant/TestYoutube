@@ -1,0 +1,59 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 3,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 2,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "time" : {
+        "start" : 1505324177107,
+        "stop" : 1505324177348,
+        "duration" : 241
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "c348b0a95d7ebd6e",
+        "message" : "NoClassDefFoundError: org/openqa/selenium/logging/LoggingHandler",
+        "status" : "BROKEN"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "ff2e742db1eafce0",
+        "title" : "Surefire suite : Surefire test",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 2,
+          "failed" : 0,
+          "broken" : 1
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 2,
+          "failed" : 0,
+          "broken" : 1
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

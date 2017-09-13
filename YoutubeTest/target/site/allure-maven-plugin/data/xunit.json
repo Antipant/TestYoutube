@@ -1,0 +1,60 @@
+{
+  "time" : {
+    "start" : 1505324177107,
+    "stop" : 1505324177348,
+    "duration" : 241
+  },
+  "testSuites" : [ {
+    "uid" : "ff2e742db1eafce0",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test",
+    "time" : {
+      "start" : 1505324177107,
+      "stop" : 1505324177348,
+      "duration" : 241
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 2,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "2a45b9b42356a5d1",
+      "name" : "setUp",
+      "title" : "Set up",
+      "time" : {
+        "start" : 1505324177107,
+        "stop" : 1505324177138,
+        "duration" : 31
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "3b85ab9c74fc5891",
+      "name" : "testFinish",
+      "title" : "Test finish",
+      "time" : {
+        "start" : 1505324177310,
+        "stop" : 1505324177345,
+        "duration" : 35
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "4e9cca0602730d75",
+      "name" : "tearDown",
+      "title" : "Tear down",
+      "time" : {
+        "start" : 1505324177347,
+        "stop" : 1505324177348,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    } ]
+  } ]
+}
